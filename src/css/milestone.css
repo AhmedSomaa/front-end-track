@@ -1,0 +1,50 @@
+body{
+    background: white;
+}
+
+
+h1{
+    margin-top: 50px;
+    font-family: 'Yatra One', cursive;
+    color: black;
+}
+
+h2{
+    font-family: 'Yatra One', cursive;
+    color: black;
+}
+
+
+li{
+    font-family: 'Yatra One', cursive;
+    color: black; 
+}
+
+.topnav {
+    background-color: black;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Roboto Mono', monospace;
+}
+  
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+.topnav a.active {
+    background-color: grey;
+    color: white;
+}
+  
+.topnav-right {
+    float: right;
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Lesson 2: Web Pages and Servers</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="../../css/lesson.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="topnav">
+            <a href="../ms-one-lessons/"><img alt="black left arrow" src="../../images/left-arrow.png"></a>
+        </div>
+        <br>
+        <center><h1>Lesson 2: Web Pages and Servers</h1></center><br>
+        <h2>Servers</h2>
+        <ul>
+            <li>
+                Servers are just computers. They’re not fundamentally different from our computers. 
+                However, they have programs running on them that answers browser’s requests.
+            </li>
+            <li>
+                One of the super powers of the web is that you can make links to a file or document 
+                that’s on a different server.
+            </li>
+            <li>
+                A web page can include resources such as video, images, code...etc. 
+                From the same web server or some other web servers.
+            </li>
+        </ul>
+        <h2>Web browsers and Servers Interaction</h2>
+        <p>
+            Web browsers and servers interact in a very specific way. 
+            When you go to a web page or follow a link, your browser makes a request 
+            to a server asking for a particular document by name <strong>[index.html]</strong>
+            and the server sends a response back to the browser containing that 
+            document <br>or if it couldn’t find that document, it sends an error message 
+            instead <strong>[404: Page Not Found]</strong>. The rules of how these requests and responses 
+            work are called <strong>[HTTP]</strong>.
+        </p>
+        <h2>HTTP</h2>
+        <ul>
+            <li>
+                stands for <strong>H</strong>yper <strong>T</strong>ext <strong>T</strong>ransfer 
+                <strong>P</strong>rotocol.
+            </li>
+            <li>
+                tells the browser which rules (or <em class="protocol">protocol</em>) 
+                to use when talking to the web server.<br><br>
+                <div class="note">
+                    <strong class="note-title">NOTE</strong>&nbsp;The difference between addresses with http: 
+                    and https: is whether the browser <br>uses encryption to keep your data private 
+                    (the <strong>S</strong> stands for <strong>S</strong>ecure).
+                </div>
+            </li>
+        </ul>
+        <h2>Web pag Structure</h2>
+        <ul>
+            <li>
+                <strong>HTML</strong>: to provide the structure and text of a web-page. In fact, this the first thing 
+                the web server sends back to the browser to tell it what to do.
+            </li>
+            <li>
+                <strong>CSS</strong>: to provide the styling of the web page.
+            </li>
+            <li>
+                <strong>JS</strong>: to provide web page interactions.
+            </li>
+        </ul>
+        <h2>Exercise: Before Lesson 3</h2><br><br>
+        <table>
+            <tr>
+                <th>STATEMENT</th>
+                <th>TRUE OR <em>FALSE</em></th>
+            </tr>
+            <tr>
+                <td>
+                    When you type <strong>udacity.com</strong> into your browser,<br> 
+                    your browser communicates with Udacity's server using HTTP (or HTTPS).
+                </td>
+                <th>TRUE</th>
+            </tr>
+            <tr>
+                <td>
+                    Udacity's web server returns an HTML file to your browser.
+                </td>
+                <th>TRUE</th>
+            </tr>
+            <tr>
+                <td>
+                    Your browser copies <strong>all</strong> of the files stored on Udacity's web server onto your computer.
+                </td>
+                <th><em>FALSE</em></th>
+            </tr>
+            <tr>
+                <td>
+                    Based on information contained in the HTML, your browser <br>requests other files from Udacity's 
+                    web server and from other web servers.
+                </td>
+                <th>TRUE</th>
+            </tr>
+            <tr>
+                <td>
+                    Everything displayed on Udacity's web site <strong>has</strong> to come from Udacity's web server.
+                </td>
+                <th><em>FALSE</em></th>
+            </tr>
+            <tr>
+                <td>
+                    When you go to a page on the Web, your browser sends a request to a server.
+                </td>
+                <th>TRUE</th>
+            </tr>
+            <tr>
+                <td>
+                    HTML stands for Hypertext Transfer Protocol.
+                </td>
+                <th><em>FALSE</em></th>
+            </tr>
+            <tr>
+                <td>
+                    HTTP stands for Hypertext Markup Language.
+                </td>
+                <th><em>FALSE</em></th>
+            </tr>
+            <tr>
+                <td>
+                    A web page can include resources (like videos or images) from multiple web servers.
+                </td>
+                <th>TRUE</th>
+            </tr>
+        </table>
+    </body>
+</html>
